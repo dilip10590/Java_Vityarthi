@@ -1,47 +1,57 @@
-📌 Overview of the Project
-The SuperCalculator is a lightweight, menu-driven Java application designed to unify multiple mathematical operations into a single command-line utility. It enables users to perform diverse tasks such as scientific calculations, matrix operations, equation solving, statistical analysis, and number theory—all within one interactive program.
+                                    SUPERCALCULATOR
 
-The application offers a simple interactive console interface where users can select operations from a menu and execute multiple calculations without restarting the program. Its modular design ensures extensibility and reliability, making it suitable for academic, professional, and personal use.
+Overview of the Project:
 
-✨ Features
-The SuperCalculator supports 8 distinct mathematical domains:
+    The SuperCalculator is a lightweight, menu-driven Java application designed to unify multiple
+    mathematical operations into a single command-line utility. It enables users to perform diverse
+    tasks such as scientific calculations, matrix operations, equation solving, statistical analysis,
+    and number theory—all within one interactive program.
+    
+    The application offers a simple interactive console interface where users can select operations
+    from a menu and execute multiple calculations without restarting the program. Its modular design
+    ensures extensibility and reliability, making it suitable for academic, professional, and personal use.
 
-Scientific Functions:
+Features:
 
-Logarithmic, exponential, trigonometric, inverse trigonometric, and hyperbolic functions.
+    The SuperCalculator supports 8 distinct mathematical domains:
 
-Matrix Operations:
+    Scientific Functions:
 
-Addition and multiplication of square matrices.
+        Logarithmic, exponential, trigonometric, inverse trigonometric, and hyperbolic functions.
 
-Quadratic Solver:
+    Matrix Operations:
 
-Finds real and complex roots of quadratic equations.
+        Addition and multiplication of square matrices.
 
-Linear Solver (2×2):
+    Quadratic Solver:
 
-Solves systems of two linear equations using determinant-based methods.
+        Finds real and complex roots of quadratic equations.
 
-Statistics:
+    Linear Solver (2×2):
 
-Mean, median, and standard deviation for datasets.
+        Solves systems of two linear equations using determinant-based methods.
 
-Power Calculations:
+    Statistics:
 
-Computes exponents efficiently.
+        Mean, median, and standard deviation for datasets.
 
-Prime Number Utilities:
+    Power Calculations:
 
-Checks primality and generates prime sequences.
+        Computes exponents efficiently.
 
-Factorial:
+    Prime Number Utilities:
 
-Computes factorial values for integers.
+        Checks primality and generates prime sequences.
 
-⚙️ Technical Specifications
-Language: Java (JDK)
+    Factorial:
 
-Primary Class: SuperCalculator
+        Computes factorial values for integers.
+
+Technical Specifications:
+
+    Language: Java (JDK)
+    
+    Primary Class: SuperCalculator
 
 Core Methods:
 
