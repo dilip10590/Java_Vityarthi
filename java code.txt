@@ -223,33 +223,49 @@ public class SuperCalculator
 
     public static void main(String[] args)
     {
+        
         while(true)
         {
-            System.out.println("\n--- Super Calculator ---");
-            System.out.println("1. Scientific Functions");
-            System.out.println("2. Matrix Operations");
-            System.out.println("3. Quadratic Solver");
-            System.out.println("4. Linear Solver (2x2)");
-            System.out.println("5. Statistics");
-            System.out.println("6. power");
-            System.out.println("7. Prime Numbers");
-            System.out.println("8. Factorial");
-            System.out.println("9. Exit");
-            System.out.print("Enter the choice: ");
-            int ch=sc.nextInt();
-            switch(ch)
+            try
             {
-                case 1 -> scientificFunctions();
-                case 2 -> matrixOperations();
-                case 3 -> quadraticSolver();
-                case 4 -> linearSolver2x2();
-                case 5 -> statistics();
-                case 6 -> power();
-                case 7 -> primeNumbers();
-                case 8 -> factorial();
-                case 9 -> { System.out.println("Thanks for using the Calculator!"); return; }
-                default -> System.out.println("Invalid choice!");
+                System.out.println("\n--- Super Calculator ---");
+                System.out.println("1. Scientific Functions");
+                System.out.println("2. Matrix Operations");
+                System.out.println("3. Quadratic Solver");
+                System.out.println("4. Linear Solver (2x2)");
+                System.out.println("5. Statistics");
+                System.out.println("6. power");
+                System.out.println("7. Prime Numbers");
+                System.out.println("8. Factorial");
+                System.out.println("9. Exit");
+                System.out.print("Enter the choice: ");
+                int ch=sc.nextInt();
+                switch(ch)
+                {
+                    case 1 -> scientificFunctions();
+                    case 2 -> matrixOperations();
+                    case 3 -> quadraticSolver();
+                    case 4 -> linearSolver2x2();
+                    case 5 -> statistics();
+                    case 6 -> power();
+                    case 7 -> primeNumbers();
+                    case 8 -> factorial();
+                    case 9 -> { System.out.println("Thanks for using the Calculator!"); return; }
+                    default -> System.out.println("Invalid choice!");
+                }
             }
-        }
+        
+        
+            catch (InputMismatchException e) 
+            {
+                System.out.println("Invalid input! Please enter numbers only.");
+                sc.nextLine();
+            } 
+            catch (Exception e) 
+            {
+                System.out.println("Unexpected error: " + e.getMessage());
+                sc.nextLine();
+            }
+        }    
     }
 }
