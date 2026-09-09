@@ -1,7 +1,9 @@
 Problem Statement:
 
 
-Engineering students, developers, and analysts often need to perform diverse mathematical operations ranging from scientific functions and matrix manipulations to solving equations, statistical analysis, and number theory. Traditionally, these tasks require multiple tools: scientific calculators, spreadsheets, or specialized software. Switching between them is inefficient, error-prone, and time-consuming.
+Engineering students, developers, and analysts often need to perform diverse mathematical operations ranging from scientific functions and
+matrix manipulations to solving equations, statistical analysis, and number theory. Traditionally, these tasks require multiple tools: scientific calculators, 
+spreadsheets, or specialized software. Switching between them is inefficient, error-prone, and time-consuming.
 
 
 Objectives:
