@@ -73,42 +73,45 @@ Technical Specifications:
 
 Concepts Used:
 
-  Modular method design
+      Modular method design
 
-  Switch expressions
+      Switch expressions
 
-  Exception handling (try-catch)
+      Exception handling (try-catch)
 
-  Scanner I/O for interactive input
+      Scanner I/O for interactive input
 
 How It Works:
 
-    Menu-Driven Interface:
+        Step1: Go to the official Oracle JDK or OpenJDK site and install latest stable version of JDK
+        Step2: Run the installer and install it to a directory
+        Step3: Verify Installation, Open Command Prompt or PowerShell and type (java -version, javac -version)
+        Step4: Open terminal in that folder and run:
+                            javac SuperCalculator.java
+        Step5: SuperCalculator.class file will be create 
+               Run the program:
+                            java SuperCalculator
+
+    (i)Menu-Driven Interface:
     
         Users select an operation from the displayed menu.
     
-    Input Handling:
+    (ii)Input Handling:
     
         The program prompts for required values (numbers, matrices, datasets).
     
-    Computation:
+    (iii)Computation:
     
         Each method performs its respective calculation using Java’s Math library or custom logic.
     
-    Formatted Output:
+    (iv)Formatted Output:
     
-        Results are displayed clearly, with support for real and complex numbers, matrix formatting, and statistical precision.
+        Results are displayed clearly, with support for real and complex numbers, matrix formatting, and
+        statistical precision.
 
-🚀 Future Enhancements
-Determinant and inverse matrix calculations.
+Conclusion:
 
-Mode (most frequent element) in statistics.
-
-Extended equation solvers (polynomial, higher-order systems).
-
-Graphical User Interface (GUI) for improved usability.
-
-Integration with file I/O for saving and loading datasets.
-
-🎯 Conclusion
-The SuperCalculator serves as an efficient, extensible utility that consolidates diverse mathematical operations into one program. By applying core Java principles—modular design, switch expressions, exception handling, and interactive input—the project demonstrates practical problem-solving skills while offering a valuable tool for students, developers, and enthusiasts.
+        The SuperCalculator serves as an efficient, extensible utility that consolidates diverse mathematical operations
+        into one program. By applying core Java principles—modular design, switch expressions, exception handling, and
+        interactive input—the project demonstrates practical problem-solving skills while offering a valuable tool for
+        students, developers, and enthusiasts.
