@@ -1,4 +1,4 @@
-                                    SUPERCALCULATOR
+Topic: Super Calculator 
 
 Overview of the Project:
 
@@ -15,88 +15,89 @@ Features:
 
     The SuperCalculator supports 8 distinct mathematical domains:
 
-    Scientific Functions:
+      (i)Scientific Functions:
+  
+          Logarithmic, exponential, trigonometric, inverse trigonometric, and hyperbolic functions.
+  
+      (ii)Matrix Operations:
+  
+          Addition and multiplication of square matrices.
+  
+      (iii)Quadratic Solver:
+  
+          Finds real and complex roots of quadratic equations.
+  
+      (iv)Linear Solver (2×2):
+  
+          Solves systems of two linear equations using determinant-based methods.
+  
+      (v)Statistics:
+  
+          Mean, median, and standard deviation for datasets.
+  
+      (vi)Power Calculations:
+  
+          Computes exponents efficiently.
+  
+      (vii)Prime Number Utilities:
+  
+          Checks primality and generates prime sequences.
 
-        Logarithmic, exponential, trigonometric, inverse trigonometric, and hyperbolic functions.
-
-    Matrix Operations:
-
-        Addition and multiplication of square matrices.
-
-    Quadratic Solver:
-
-        Finds real and complex roots of quadratic equations.
-
-    Linear Solver (2×2):
-
-        Solves systems of two linear equations using determinant-based methods.
-
-    Statistics:
-
-        Mean, median, and standard deviation for datasets.
-
-    Power Calculations:
-
-        Computes exponents efficiently.
-
-    Prime Number Utilities:
-
-        Checks primality and generates prime sequences.
-
-    Factorial:
-
-        Computes factorial values for integers.
+      (viii)Factorial:
+  
+          Computes factorial values for integers.
 
 Technical Specifications:
 
-    Language: Java (JDK)
+    (i)Language: Java (JDK)
     
-    Primary Class: SuperCalculator
+    (ii)Primary Class: SuperCalculator
 
-Core Methods:
-
-scientificFunctions()
-
-matrixOperations()
-
-quadraticSolver()
-
-linearSolver2x2()
-
-statistics()
-
-power()
-
-primeNumbers()
-
-factorial()
+    (iii)Core Methods:
+    
+        a.scientificFunctions()
+        
+        b.matrixOperations()
+        
+        c.quadraticSolver()
+        
+        d.linearSolver2x2()
+        
+        e.statistics()
+        
+        f.power()
+        
+        g.primeNumbers()
+        
+        h.factorial()
 
 Concepts Used:
 
-Modular method design
+  Modular method design
 
-Switch expressions
+  Switch expressions
 
-Exception handling (try-catch)
+  Exception handling (try-catch)
 
-Scanner I/O for interactive input
+  Scanner I/O for interactive input
 
-🔍 How It Works
-Menu-Driven Interface:
+How It Works:
 
-Users select an operation from the displayed menu.
-
-Input Handling:
-
-The program prompts for required values (numbers, matrices, datasets).
-
-Computation:
-
-Each method performs its respective calculation using Java’s Math library or custom logic.
-
-Formatted Output:
-
-Results are displayed clearly, with support for real and complex numbers, matrix formatting, and statistical precision.
+    Menu-Driven Interface:
+    
+        Users select an operation from the displayed menu.
+    
+    Input Handling:
+    
+        The program prompts for required values (numbers, matrices, datasets).
+    
+    Computation:
+    
+        Each method performs its respective calculation using Java’s Math library or custom logic.
+    
+    Formatted Output:
+    
+        Results are displayed clearly, with support for real and complex numbers, matrix formatting, and statistical precision.
 
 🚀 Future Enhancements
 Determinant and inverse matrix calculations.
