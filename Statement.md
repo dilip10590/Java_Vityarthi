@@ -1,8 +1,9 @@
 (a)Problem Statement:
 
-        Engineering students, developers, and analysts often need to perform diverse mathematical operations ranging from scientific functions and
-        matrix manipulations to solving equations, statistical analysis, and number theory. Traditionally, these tasks require multiple tools: scientific calculators, 
-        spreadsheets, or specialized software. Switching between them is inefficient, error-prone, and time-consuming.
+        Engineering students, developers, and analysts often need to perform diverse mathematical operations ranging 
+        from scientific functions and matrix manipulations to solving equations, statistical analysis, and number theory.
+        Traditionally, these tasks require multiple tools: scientific calculators, spreadsheets, or specialized software.
+        Switching between them is inefficient, error-prone, and time-consuming.
 
 
 (b)Objectives:
@@ -17,42 +18,25 @@
 
 (c)Scope of the Project:
 
-
     (i)Functional Scope:
 
-
         1.Scientific Functions: log, exp, sin, cos, tan, inverse trig functions, and hyperbolic functions.
-
         2.Matrix Operations: addition and multiplication of square matrices.
-
         3.Equation Solvers: quadratic equations and linear systems (2×2).
-
         4.Statistics: mean, median, and standard deviation for datasets.
-
         5.Power & Factorial Calculations: efficient computation of exponents and factorials.
-
         6.Prime Number Utilities: primality testing and prime number generation.
-
 
     (ii)Non-Functional Scope:
 
-
         1.Efficiency: Fast calculations with minimal overhead.
-
         2.Portability: Runs on any platform with a Java Virtual Machine (JVM).
-
         3.Simplicity: Intuitive menu-driven interface with clear prompts.
-
         4.Reliability: Exception handling ensures safe termination and user guidance.
-
 
 (d)Target Audience:
 
-
         1.Engineering students: Solve coursework problems in mathematics and computer science.
-        
         2.Developers & analysts: Quickly test mathematical logic without switching tools.
-        
         3.Educators & learners: Use as a teaching aid for demonstrating core mathematical concepts.
-        
         4.Enthusiasts: Experiment with number theory, statistics, and algebra in a lightweight CLI utility.
